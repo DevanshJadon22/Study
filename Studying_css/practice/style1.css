@@ -1,0 +1,10 @@
+.heading{
+    color: red;
+}
+/* h1,h2,h3{
+    this is also same as 
+    .heading{
+    color: red;
+    }
+    color: red;
+} */

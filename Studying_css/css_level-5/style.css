@@ -1,0 +1,23 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    transition-property: all;
+    /* here all the properties(state) of element will be affected (transition will occur)   */
+    transition-duration: 2s; 
+    transition-timing-function: steps(5);
+    /* this will cause the transition to occur for 2 sec of hover,click or any action. */
+    /* display: block; */
+    transition-delay: 1s;
+}
+/* here we are writting psuedo class which is used to define the transtion which occurs on whichstate and what properties it will effect. */
+div:hover{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+div:active{
+    background-color: blue;
+}
+    

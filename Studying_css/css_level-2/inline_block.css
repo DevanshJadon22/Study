@@ -1,0 +1,13 @@
+div{
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+#box2{
+    visibility: hidden;
+    /* for visiblity:hidden or none the space is reserved for element but when display:none then no space is reserved for element */
+    /* display: none; */
+}

@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+}
+div{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container{
+    height: 200px;
+    width: 800px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    /* we can also write justify-content: centre; this will arrange the content at the centre of main axis (that is horizontal axis )  */
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: pink;
+}
+#box3{
+    background-color: darkkhaki;
+}
+#box4{
+    background-color: indianred;
+}
+#box5{
+    background-color: slateblue;
+}

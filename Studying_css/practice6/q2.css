@@ -1,0 +1,34 @@
+ul{
+    background-color: pink;
+    display: flex;
+    justify-content:space-evenly;
+}
+a{
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+}
+li{
+    list-style-type: none;
+    display: inline;
+}
+/* .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} */
+ .outer{
+    height: 400px;
+    width: 400px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    /* here justify-content: center; will make the inner div come at the centre of major axis .(that is left to right rowise) */
+    align-items: center;
+    /* here align-items: center; will make the inner div come at the centre of cross axis .(that is top to bottom colomnwise.) */
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: darkorchid;
+}

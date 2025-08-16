@@ -1,0 +1,14 @@
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    font-size: 10px;
+}
+#box2{
+    height: 50px;
+    
+    background-color: yellow;
+    margin-left: 10%;
+    font-size: 2em; /* here 2 em means the font size is 2 times the font six=ze of parent element */
+    width:5 em; /* here the width: 5 em; means that the width is 5 times the font size of div with id ="box2". */
+}

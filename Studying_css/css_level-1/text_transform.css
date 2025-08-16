@@ -1,0 +1,17 @@
+#one{
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#two{
+    line-height: 10px;
+    text-transform: lowercase;
+}
+#three{
+    /* here this capitalize will make first letter of each word capital . */
+    text-transform: capitalize;
+}
+#four{
+    /* here if any text-transfor was done earlier then it will be not implementing and the text displayed will be same as it as text written in html */
+    text-transform: none;
+}

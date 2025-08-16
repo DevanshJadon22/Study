@@ -1,0 +1,20 @@
+div{
+    /* by default div has height same as the height of content inside div */
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    /* border-width:  2px; 
+    border-color: brown;
+    border-style: solid; */
+    border: 2px brown solid;
+}
+h1{
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    background-color: aquamarine;
+    /* border-width: 5px;
+    border-style: dotted;
+    border-color: black; */
+    border: 5px black dotted;
+}

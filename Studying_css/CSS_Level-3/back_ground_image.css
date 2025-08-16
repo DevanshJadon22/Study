@@ -1,0 +1,22 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+#box1{
+    background-image: url("cat_photo.jpg");
+    background-size: cover;
+}
+/* displaying the contain (background-size:contain;) option ,here in contain the image is resized such that it fits the element here if the image is smaller than the space avilavle in element then the photo is repeated. */
+#box2{
+    background-image:url("cat_photo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#box3{
+    background-image: url("cat_photo.jpg");
+    background-size: auto;
+    /* here when we set auto then automatically what ever portion  (size) of image can be set in element it is set (by default when we put background-image: url(); for any element its back-ground_size is auto.) */
+}

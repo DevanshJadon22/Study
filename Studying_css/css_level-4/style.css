@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container{
+    height: 200px;
+    width: 800px;
+    display: flex;
+    /* after writting this we can use the flexbox model in css that is when we write diplay:flex; */
+    flex-direction: column-reverse;
+    /* here we set our major axis as coloumn and direction is from bottom to top. */
+    /* flex-direction: row-reverse;
+    there are four type of flex-direction: row(default);here the main axis is row(from left to right)
+    second one is flex-direction:row-reverse; here the main axis is also row (but direction is from right to left).
+    third one is flex-direction:colomn; that is here the main axis is colomn (and direction is from top to bottom) */
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: pink;
+}
+#box3{
+    background-color: darkkhaki;
+}
+#box4{
+    background-color: indianred;
+}
+#box5{
+    background-color: slateblue;
+}

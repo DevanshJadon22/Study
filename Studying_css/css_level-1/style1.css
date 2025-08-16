@@ -1,0 +1,20 @@
+*{
+    color: blue;
+}
+h1{
+    /* in css priority increases down the file. */
+    /* this h1 selector is element selector which allpies properties written inside{} to all the h1 element present in html document. */
+    color: green;
+}
+#Headingone{
+    color: chocolate;
+}
+#Headingtwo{
+    color: yellow;
+}
+.myclass{
+    color: magenta ;
+}
+button{
+    color: brown;
+}

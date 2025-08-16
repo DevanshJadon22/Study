@@ -1,0 +1,19 @@
+ul{
+    background-color: pink;
+    display: flex;
+    justify-content:space-evenly;
+}
+a{
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+}
+li{
+    list-style-type: none;
+    display: inline;
+}
+/* .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} */

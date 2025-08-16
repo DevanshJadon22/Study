@@ -1,0 +1,35 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+#box1{
+    position: static;
+}
+#box2{
+    position: relative;
+    top: 20px;/* this statement is used to shift the div element with id box2 20px downwards relative to its upper old boder. now after refreshing the web page we get to see that our box2 is 20 px downwards from its original position of top border(boundary). */
+    left: 10px;
+}
+#box3{
+    position: absolute;
+    /* the position will be now relative to the closest non ststic ansistors ie body tag . */
+    top: 10px;
+    /* this top: 10px; will move div with id="box3" 10px bottom from top side of body tag that is this will shift 10 px down from top of the browser. */
+    left: 20px;
+    /* this top: 10px; will move div with id="box3" 20px towards right from left side of body tag that is this will shift 20 px towards rigt  from left side  of the closest nin static ansistors  that is body tag here in this case.(here browser). */
+}
+#box4{
+    position: fixed;
+    /* this means now the position of div with id=box4; will be changing relative to the browser . */
+    right: 10px;
+    /* this right: 10px; means we will be shifting our div with id=box4; 10px  towards left from the right most end of browser . */
+}
+/* when the position is fixed then when we scoll the screen of browser then the element with fixed position will be staying at the asiigned position only . while all other things move with scrolling. */
+#box5{
+    position: sticky;
+    /* this makes the element to stick at its assigned position when we reach its assigned position while scrolling the web page  */
+    top: 10px;
+}
